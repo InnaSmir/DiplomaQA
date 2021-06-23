@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  postgres:
+    image: postgres:11
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_DB=app
+      - POSTGRES_USER=app
+      - POSTGRES_PASSWORD=pass
+  node-app:
+    build: ./artifacts/gate-simulator
+    ports:
+      - '9999:9999'
