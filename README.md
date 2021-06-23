@@ -5,9 +5,9 @@
 2. Уникальная технология: выдача кредита по данным банковской карты
 
 ## Документация проекта:
-* [План автоматизации тестирования](https://github.com/InnaSmir/QA-Diploma/blob/main/docs/Plan.md)
-* Отчет по итогам тестирования
-* Отчет по итогам автоматизации
+* [План автоматизации тестирования](https://github.com/InnaSmir/DiplomaQA/blob/main/documents/Plan.md)
+* [Отчет по итогам тестирования](https://github.com/InnaSmir/DiplomaQA/blob/main/documents/Summary.md)
+* [Отчет по итогам автоматизации](https://github.com/InnaSmir/DiplomaQA/blob/main/documents/AutomatizationSummary.md)
 
 ## Необходимое программное обеспечение:
 * Java11
