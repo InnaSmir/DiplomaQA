@@ -15,7 +15,7 @@
 * Docker
 
 ## Инструкция по запуску авто-тестов:
-* Клонируйте репозиторий https://github.com/InnaSmir/QA-Diploma
+* Клонируйте репозиторий https://github.com/InnaSmir/DiplomaQA
 * Запустите контейнер в терминале InteliJ Idea, в котором разворачивается база данных docker-compose up -d --force-recreate
 * Запустите SUT командой:
 #### Запуск в MySQL:
