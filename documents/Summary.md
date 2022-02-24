@@ -3,10 +3,19 @@
 Проведено автоматизированной тестирование сервиса по покупке тура.
 
 ## Результат:
-- Было проведено 13 тест кейсов. 
+- Было проведено 13 тест кейсов (Успешных: 9; Неуспешных: 4)
 - Реализованы негативные и позитивные сценарии.
-- Найдено 8 багов.
+![](https://github.com/InnaSmir/DiplomaQA/blob/main/Screenshot.png)
 
+## Найденные баги:
+1. [Не отображается окно с ошибкой при оплате в кредит картой](https://github.com/InnaSmir/DiplomaQA/issues/1)
+2. [Не отображается окно с ошибкой при оплате не в кредит картой](https://github.com/InnaSmir/DiplomaQA/issues/2)
+3. [Не подчеркивается ошибка в поле "Владелец", не всплывает окно с ошибкой при заполнении только имени](https://github.com/InnaSmir/DiplomaQA/issues/3)
+4. [Не появляется сообщение об ошибке при заполнение поля "Владелец" на английском языке ](https://github.com/InnaSmir/DiplomaQA/issues/4)
+5. [Опечатка в приложении в названии города](https://github.com/InnaSmir/DiplomaQA/issues/5)
+6. [В таблице order_entity заполняется поле payment_id при любом виде оплаты](https://github.com/InnaSmir/DiplomaQA/issues/6)
+7. [Некорректное сообщение под не заполненными полями](https://github.com/InnaSmir/DiplomaQA/issues/7)
+8. [Нет валидации поля "Владелец"](https://github.com/InnaSmir/DiplomaQA/issues/8)
 
 ## Рекомендации:
 1. Написать спецификацию и требования к сервису.
